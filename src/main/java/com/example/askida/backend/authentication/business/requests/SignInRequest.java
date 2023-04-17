@@ -1,4 +1,4 @@
-package com.example.askida.backend.controllers;
+package com.example.askida.backend.authentication.business.requests;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterRequest {
-    private String firstName;
-    private String lastName;
+public class SignInRequest {
     private String email;
     private String password;
 }

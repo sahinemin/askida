@@ -1,4 +1,4 @@
-package com.example.askida.backend.entities.concretes;
+package com.example.askida.backend.authentication.entities.concretes;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

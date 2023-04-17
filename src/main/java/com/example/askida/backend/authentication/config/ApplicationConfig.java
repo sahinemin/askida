@@ -1,6 +1,6 @@
-package com.example.askida.backend.config;
+package com.example.askida.backend.authentication.config;
 
-import com.example.askida.backend.dataAccess.abstracts.UserRepository;
+import com.example.askida.backend.authentication.dataAccess.abstracts.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

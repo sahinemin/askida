@@ -1,4 +1,4 @@
-package com.example.askida.backend.controllers;
+package com.example.askida.backend.authentication.webApi.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

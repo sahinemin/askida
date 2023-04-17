@@ -1,5 +1,5 @@
-package com.example.askida.backend.core;
-import com.example.askida.backend.config.JwtService;
+package com.example.askida.backend.authentication.core;
+import com.example.askida.backend.authentication.business.concretes.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
