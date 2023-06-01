@@ -32,7 +32,7 @@ public class AuthManager implements AuthenticationService {
         repository.save(user);
         var jwtToken = jwtService.generateToken(user);
 
-        return AuthenticationResponse.builder().token(jwtToken).build();
+        return AuthenticationResponse.builder().token(jwtToken).user(user).build();
 
     }
 
@@ -46,6 +46,6 @@ public class AuthManager implements AuthenticationService {
         var user = repository.findByEmail(signInRequest.getEmail()).orElseThrow();
         var jwtToken = jwtService.generateToken(user);
 
-        return AuthenticationResponse.builder().token(jwtToken).build();
+        return AuthenticationResponse.builder().token(jwtToken).user(user).build();
     }
 }
